@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int x,y,z,w;
+printf("Enter the length and breadth of the rectangle");
+scanf("%d%d",&x,&y);
+z=x*y;
+printf("The area of the rectangle is :%d\n",z);
+w=2*(x+y);
+printf("The perimeter of the rectangle is:%d\n",w);
+return 0;
+}
