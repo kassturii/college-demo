@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    double z,x,y,n;
+    printf("Enter x,y,n:");
+    scanf("%lf%lf%lf",&x,&y,&n);
+    z=(n*x+y)/(n+1);
+    printf("The average marks of (n+1)th subject:%f\n",z);
+    
+
+    
+
+    return 0;
+}
